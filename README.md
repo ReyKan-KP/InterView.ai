@@ -1,7 +1,6 @@
 # interview.ai
 A powerful AI-driven interview preparation platform that helps candidates practice and improve their interview skills. Built with Next.js and modern web technologies, interview.ai provides realistic interview simulations with detailed feedback and analytics.
 
-![interview.ai demo](https://example.com/demo.gif)
 
 ## Features
 - **AI-Powered Interviews**: Realistic interview simulations with advanced natural language processing
@@ -21,7 +20,7 @@ A powerful AI-driven interview preparation platform that helps candidates practi
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/interview.ai.git
+git clone https://github.com/ReyKan-KP/InterView.ai
 cd interview.ai
 ```
 
@@ -51,10 +50,6 @@ The application will be available at `http://localhost:3000`.
 5. Receive feedback and analysis after completion
 6. Review your progress in the dashboard
 
-## Deploy to Vercel
-**Deploy in one-click**
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Finterview.ai)
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
