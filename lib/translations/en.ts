@@ -34,12 +34,12 @@ export const en = {
         view: "View Logs"
     },
     status: {
-        error: "Whoops!",
-        info: "Toggling Voice Assistant...",
+        error: "An error occurred",
+        info: "Preparing interview session...",
         language: "Language switched from",
-        session: "Session established",
-        success: "We're live, baby!",
-        toggle: "Toggling Voice Assistant..."
+        session: "Interview session established",
+        success: "Interview session ready",
+        toggle: "Initializing interview assistant..."
     },
     tokenUsage: {
         input: "Input Tokens",
