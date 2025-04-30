@@ -119,9 +119,11 @@ const App: React.FC = () => {
 
   const handleStartStopClick = async () => {
     if (!isSessionActive) {
+      const url = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+      console.log("URL:", url);
       try {
         // Send interview configuration to the API
-        await fetch('http://localhost:5000/', {
+        await fetch(`${url}/api/session`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

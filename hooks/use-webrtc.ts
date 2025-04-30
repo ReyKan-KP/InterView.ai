@@ -319,8 +319,10 @@ export default function useWebRTCAudioSession(
    * Fetch ephemeral token from your Next.js endpoint
    */
   async function getEphemeralToken() {
+    const url = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+    console.log("URL:", url);
     try {
-      const response = await fetch("http://localhost:5000/api/session", {
+      const response = await fetch(`${url}/api/session`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
       });
