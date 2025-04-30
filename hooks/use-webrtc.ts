@@ -320,7 +320,7 @@ export default function useWebRTCAudioSession(
    */
   async function getEphemeralToken() {
     try {
-      const response = await fetch("/api/session", {
+      const response = await fetch("http://localhost:5000/api/session", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
       });

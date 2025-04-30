@@ -121,7 +121,7 @@ const App: React.FC = () => {
     if (!isSessionActive) {
       try {
         // Send interview configuration to the API
-        await fetch('/api/session', {
+        await fetch('http://localhost:5000/', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
