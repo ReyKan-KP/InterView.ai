@@ -5,7 +5,12 @@ const cors = require("cors");
 const app = express();
 const port = process.env.PORT || 5000;
 
-app.use(cors());
+app.use(cors({
+  origin: '*', // replace with specific domain if needed
+  methods: ['GET', 'POST'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
+
 app.use(bodyParser.json());
 
 // Basic GET route to check server status
